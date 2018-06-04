@@ -1,0 +1,43 @@
+
+
+/* HEADER*/
+header nav{
+
+}
+header nav ul li{
+  height: 5vh;
+  list-style-type:none;
+  display: inline-block;
+}
+
+/* ASIDE */
+aside nav ul li{
+  width: 100%;
+  height: 5vh;
+  list-style-type:none;
+}
+
+.processor{
+    height: 95vh;
+}
+.clicker{
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 25vh;
+}
+.clicker:hover{
+  transform: scale(1.25);
+  transition: transform 0.25s;
+}
+#code {
+  background-image: url("./images/codeLines.png");
+}
+/* MAIN */
+.main{
+  background-image: url("./images/level1.png");
+  height: 95vh;
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

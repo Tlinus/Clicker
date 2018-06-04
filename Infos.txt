@@ -1,0 +1,17 @@
+Game Clicker.js
+
+(Infos)
+
+par Thibault LE MOING
+
+Clicker -> create ligne de codes
+Ligne de codes can create:
+-framework
+-CMS
+- Jeux
+-Moteurs
+- extensions
+-more ligne de codes (extensions)
+
+You win reputation skills and money for each game fully developped and on the market
+-at a certain stade you can hire some developpers, commercials, etc
