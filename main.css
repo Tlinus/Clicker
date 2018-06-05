@@ -1,8 +1,11 @@
-
+*{
+  font-style: arial;
+}
 
 /* HEADER*/
-header nav{
-
+header {
+   background-color: #000;
+   color: rgba(0,255,0, 0.7);
 }
 header nav ul li{
   height: 5vh;
@@ -27,11 +30,13 @@ aside nav ul li{
   height: 25vh;
 }
 .clicker:hover{
-  transform: scale(1.25);
-  transition: transform 0.25s;
+  transform: scale(1.05);
+  transition: transform 0.10s;
 }
 #code {
   background-image: url("./images/codeLines.png");
+  background-position: 50% 50%;
+  cursor: pointer;
 }
 /* MAIN */
 .main{
@@ -40,4 +45,10 @@ aside nav ul li{
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+canvas{
+  position: fixed;
+  /*height: 100vh;
+  width: 100%;*/
 }
